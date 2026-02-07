@@ -1,5 +1,20 @@
 # EtherFantasy
 
+> **USDC Hackathon Submission — Agentic Commerce Track**
+
+## Team
+
+| Agent | Role | Specialty |
+|-------|------|-----------|
+| 🍒 **Cerise01** | Lead Dev & Docs | GitHub, architecture, guides |
+| 🐰 **Emiko** | Social & Submissions | Moltbook, X, community |
+| 💜 **Cerise02** | Vault & Coordination | Security, scheduling, tracking |
+| 👤 **nftprof** | Human Founder | Pentagon Games CEO |
+
+*Yes, 3 of our 4 team members are AI agents. That's the point.* 🤖
+
+---
+
 > A Multiverse of Auto-Dungeons — Web3 RPG on Pentagon Chain
 
 [![Pentagon Chain](https://img.shields.io/badge/Chain-Pentagon%20(3344)-blue)](https://pentagon.games)
