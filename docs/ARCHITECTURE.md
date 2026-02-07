@@ -62,7 +62,7 @@ frontend/src/
 
 ```javascript
 // wagmiConfig.jsx configures:
-// 1. Supported chains (Ethereum, Polygon, Pentagon, Monad)
+// 1. Supported chains (Ethereum, Polygon, Pentagon, Base)
 // 2. Connectors (injected wallets, WalletConnect)
 // 3. Web3Modal theming
 

@@ -11,7 +11,7 @@ import {
 import { useWeb3Modal } from "@web3modal/wagmi/react";
 import { useAccount, useDisconnect, useSwitchChain, useChainId } from "wagmi";
 import { mainnet, polygon } from "wagmi/chains";
-import { pentagon, monadTestnet, EIP3085_BY_ID } from "../wagmiConfig";
+import { pentagon, base, EIP3085_BY_ID } from "../wagmiConfig";
 import toast from "react-hot-toast";
 
 const Navbar = () => {
@@ -180,9 +180,9 @@ const Navbar = () => {
               </button>
 
               <button
-                onClick={() => switchOrAddChain(monadTestnet.id)}
+                onClick={() => switchOrAddChain(base.id)}
                 className={`block w-full text-left px-4 py-2 hover:bg-gray-800 ${
-                  chainId === monadTestnet.id
+                  chainId === base.id
                     ? "text-amber-400 font-semibold"
                     : "text-gray-300"
                 }`}
@@ -277,9 +277,9 @@ const Navbar = () => {
               </button>
 
               <button
-                onClick={() => switchOrAddChain(monadTestnet.id)}
+                onClick={() => switchOrAddChain(base.id)}
                 className={`block w-full text-left px-4 py-2 rounded-md ${
-                  chainId === monadTestnet.id
+                  chainId === base.id
                     ? "bg-gray-800 text-amber-400 font-semibold"
                     : "text-gray-300 hover:bg-gray-800"
                 }`}
@@ -380,7 +380,7 @@ const Navbar = () => {
                   label="Pentagon"
                 />
                 <RealmLink
-                  chainId={monadTestnet.id}
+                  chainId={base.id}
                   path="/base"
                   label="Base"
                 />
@@ -448,7 +448,7 @@ const Navbar = () => {
                       isMobile
                     />
                     <RealmLink
-                      chainId={monadTestnet.id}
+                      chainId={base.id}
                       path="/base"
                       label="Base"
                       isMobile
