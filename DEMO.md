@@ -26,7 +26,7 @@ Traditional NFT minting requires users to:
 
 Navigate to [etherfantasy.com/pentagon](https://etherfantasy.com/pentagon)
 
-![Pentagon Realm Mint Page](mockups/01-pentagon-mint-landing.jpg)
+![Pentagon Realm Mint Page](demo/01-pentagon-mint-landing.jpg)
 
 - View total minted characters (275+)
 - See available minting options
@@ -38,7 +38,7 @@ Navigate to [etherfantasy.com/pentagon](https://etherfantasy.com/pentagon)
 
 Click "Connect Wallet" to open the connection modal.
 
-![Wallet Connect Modal](mockups/02-wallet-connect-modal.jpg)
+![Wallet Connect Modal](demo/02-wallet-connect-modal.jpg)
 
 Supported wallets:
 - MetaMask
@@ -52,7 +52,7 @@ Supported wallets:
 
 Choose your preferred USDC payment chain:
 
-![Payment Modal](mockups/payment-modal-final.png)
+![Payment Modal](demo/payment-modal-final.png)
 
 **Supported chains:**
 - **BASE** — Low fees, fast confirmation
@@ -69,7 +69,7 @@ Price: **1 USDC** per character mint
 
 Already have USDC on Ethereum? Bridge directly to Pentagon Chain:
 
-![Bridge USDC Support](mockups/03-bridge-usdc-support.png)
+![Bridge USDC Support](demo/03-bridge-usdc-support.png)
 
 **Supported tokens on bridge.pentagon.games:**
 - ETH
