@@ -1,0 +1,11 @@
+[
+  {
+    "inputs": [
+      { "internalType": "uint256", "name": "skuId", "type": "uint256" }
+    ],
+    "name": "purchaseWithNative",
+    "outputs": [],
+    "stateMutability": "payable",
+    "type": "function"
+  }
+]

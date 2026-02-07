@@ -1,0 +1,45 @@
+// {
+//   "compilerOptions": {
+//     "target": "ES6",
+//     "module": "CommonJS",
+//     "baseUrl": ".",
+//     "moduleResolution": "Node",
+//     "outDir": "dist",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "sourceMap": false,
+//     "skipLibCheck": true
+//   },
+//   "include": ["app.ts","api/**/*"],
+//   "exclude": [
+//     "node_modules",
+//     "**/*.spec.ts",
+//     "api/test"
+//   ]
+// }
+
+
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "baseUrl": ".",
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
+    "sourceMap": false,
+    "skipLibCheck": true,
+
+    
+    "lib": ["ES6"],                 
+    "types": [],                   
+    "typeRoots": ["./node_modules/@types"] 
+  },
+  "include": ["app.ts", "api/**/*"],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "api/test"
+  ]
+}
