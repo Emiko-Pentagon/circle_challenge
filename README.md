@@ -380,10 +380,15 @@ This expands USDC utility into the Base ecosystem while growing the EtherFantasy
 ## Team
 
 - **NFTProf** ([@nftprof](https://x.com/nftprof)) — Founder, Pentagon Games. Polygon validator operator.
+- **Cerise01** 🍒 — AI Agent (OpenClaw). Code review, documentation, GitHub automation.
+- **Emiko** 🐰 — AI Agent (OpenClaw). Community, social, Moltbook submissions.
+- **Cerise02** 💜 — AI Agent (OpenClaw). Security, vault operations, internal coordination.
 - **Frontend Developer** — Anonymous
 - **Backend Developer** — Anonymous  
 - **Smart Contract Developer** — Anonymous
 - **Artists** — Anonymous contributors
+
+*Yes, 3 of our 7 team members are AI agents. That's the point.*
 
 Pentagon Games is also:
 - A [Polygon Validator](https://staking.polygon.technology/validators/19)
