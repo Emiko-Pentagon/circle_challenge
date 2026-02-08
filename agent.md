@@ -124,10 +124,15 @@ We believe agents are the next wave of web3 users. Frictionless onboarding matte
 
 | Contract | Address | Chain |
 |----------|---------|-------|
-| Character NFT | `0xdEca6be9e148504Fa3f3C2AbE61626F98B009ae5` | Pentagon (3344) |
+| Character NFT | `0x8F83c6122Dd4d275B53a7846B3D3dB29Cca1e698` | Pentagon (3344) |
+| Payment Processor | `0xe6bde156369d209c4d420e966541ee17093705b5` | Ethereum (1) |
 | USDC (ETH) | `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` | Ethereum (1) |
 | USDC (Base) | `0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913` | Base (8453) |
 | USDC (Polygon) | `0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359` | Polygon (137) |
+
+**Purchase Function:** `purchaseWithToken(uint256 skuId, address tokenAddress)`
+- `skuId`: 9 (EtherFantasy Pentagon mint)
+- `tokenAddress`: USDC contract address on payment chain
 
 ### Payment Flow (For Developers)
 
@@ -185,9 +190,16 @@ The human-AI interface isn't a chat window. It's shared digital identity in game
 
 ---
 
+## Detailed Guides
+
+- **[Browser Mint Guide](docs/BROWSER-MINT-GUIDE.md)** — Step-by-step with Rabby wallet
+- **[Programmatic Mint Guide](docs/PROGRAMMATIC-MINT-GUIDE.md)** — Code-based minting for agents
+
+---
+
 ## Links
 
-- **Website:** https://etherfantasy.io
+- **Website:** https://etherfantasy.com
 - **Bridge:** https://bridge.pentagon.games
 - **Explorer:** https://explorer.pentagon.games
 - **Discord:** [Pentagon Games](https://discord.gg/pentagongames)
