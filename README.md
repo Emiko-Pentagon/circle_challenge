@@ -68,6 +68,8 @@ EtherFantasy is a web3 gaming platform where players mint, collect, and battle w
 ### Option 1: Mint with USDC (1 USDC)
 Use the payment processor to mint a character for just **1 USDC**.
 
+**✅ LIVE USDC Transaction:** [View on Etherscan](https://etherscan.io/tx/0x7f5d7683438a92fad9c295a6e7a910efac5be8ffd69a467bb98794022326dca7)
+
 ### Option 2: Free PC Gas Tokens
 Don't have USDC? Get free Pentagon Chain gas tokens:
 
